@@ -45,7 +45,7 @@ main{
   	font-size:0.7em;
   	border-radius: 5px;
  	padding: 3px;
-  	border: 1px solid black;
+  	border: 1px solid #13708f;
 }
 
 video{
@@ -71,9 +71,10 @@ table{
 	margin-left:1em;
 	margin-top:2em;
 	margin-bottom:2em;
+	overflow: auto;
 }
 th, td{
-    border: 1px solid black;
+    border: 1px solid #13708F;
     padding: 0.2em 0.7em;
     text-align: center;
 }
@@ -81,7 +82,7 @@ th.left, td.left {
     text-align: left;
 }
 thead, tfoot{
-    background-color: burlywood;
+    background-color: #53bfed;
     font-weight: bold;
 }
 caption p{
@@ -176,7 +177,7 @@ footer li{
   	max-height: 600px;
 	display: block;
 	text-align: center;
-	border: 1px solid black;
+	border: 1px solid #13708f;
 	
 }
 .article img{
@@ -264,8 +265,8 @@ footer li{
 	max-height: 150px;
 }
 .tbl_date{
-	width:10%;
-	min-width:50px;
+	width:20%;
+	min-width:200px;
 }
 .date_day{
 	font-weight:bolder;
@@ -277,7 +278,6 @@ footer li{
 	font-size:0.85em;
 	font-variant: small-caps;
 }
-
 .event_img_sm{
 	float:left;
 	max-height: 80px;
