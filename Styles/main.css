@@ -208,6 +208,7 @@ footer li{
   	margin-left:-25px;
   	height:40px;
 }
+
 .dateblock{
   	float: left;
   	padding: 15px;
@@ -215,14 +216,40 @@ footer li{
   	height:35px;
   	background-color:#e6e4e4;
 	border-radius: 50%;
-
 }
+
 .dateblock_content{
   	text-align: center;
 }
 
+.library_block_wrapper{
+	display:inline-block;
+}
+.libary_block{
+	width:80%;
+	margin:.5em;
+}
+.lib_Title{
+	text-align: left;
+	font-weight: bold;
+	font-size: 1.2em;
+}
 
+.lib_system{
+	text-align: left;
+	font-style:italic;
+}
+.lib_keywords{
+	text-align: left;
+	font-size: .8em;
 
+}
+.lib_text{
+	text-align:left;
+}
+.lib_img{
+	height: 200px;
+}
 /* events page */
 #tndlogo{
 	float:left;
@@ -257,17 +284,19 @@ footer li{
 }
 
 /*about */
-.gm_block_wrapper{
+.text_block_wrapper{
 	display:inline-block;
 	line-height: 1.5;
 }
-.gm_block{
+.text_block{
 	width:80%;
 	margin:.5em;
 }
 .img_gm{
 	max-width:100px;
 	max-height:auto;
+}
+.center{
 	align-content: center;
 }
 .gm_application{
