@@ -12,6 +12,8 @@
 
 h1, h2, h3{
     padding: 5px 0.543%;
+	color: #13708f;
+	font-variant: small-caps;
 }
 h1{
     font-size: 1.85em;
@@ -219,8 +221,9 @@ footer li{
   	padding: 15px;
   	margin-left:-25px;
   	height:35px;
-  	background-color:#e6e4e4;
+  	background-color:#53bfed;
 	border-radius: 50%;
+	color: white;
 }
 
 .dateblock_content{
