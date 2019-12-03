@@ -283,7 +283,7 @@ footer li{
 	max-height: 80px;
 }
 .tbl_seats{
-	width:10%;
+	width:20%;
 	min-width:50px;
 }
 
@@ -293,6 +293,7 @@ footer li{
 	line-height: 1.5;
 }
 .text_block{
+	float:left;
 	width:80%;
 	margin:.5em;
 }
