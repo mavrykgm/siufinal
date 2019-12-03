@@ -48,7 +48,10 @@ main{
   	border: 1px solid black;
 }
 
-
+video{
+	width: 320px; 
+	height 100%;
+}
 
 header{	
 	color:white;
@@ -249,6 +252,7 @@ footer li{
 }
 .lib_img{
 	height: 200px;
+	margin: 20px 10px 20px 0;
 }
 /* events page */
 #tndlogo{
