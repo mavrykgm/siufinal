@@ -359,12 +359,10 @@ input:focus, textarea:focus {
 }
 
 #sizechart{
-	width: 100px;
+	width: 300px;
 	height:auto;
 }
-#sizechart:hover{
-	width: 100%;
-}
+
 /* specific overrides for responsive design */
 
 @media only screen and (max-width: 800px) {
@@ -387,6 +385,4 @@ input:focus, textarea:focus {
 	.tbl_event{
 		width:80px;
 	}
-	#sizechart:hover{ width: 300px; }
-	#sizechart{width: 300px;}
 }
