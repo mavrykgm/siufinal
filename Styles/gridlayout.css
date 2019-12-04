@@ -10,9 +10,9 @@
 body{
     /*display*/
     display: grid;
-	grid-template-columns: 5px 1fr 5px;
+    grid-template-columns: 40px 1fr 40px;
     grid-gap: 10px;
-	background-color: black;
+    background-color: black;
 }
 
 /* default grid layout */
@@ -22,6 +22,13 @@ nav{grid-row: 2/3; grid-column:1/ span 3; }
 main{ grid-row: 3/4; grid-column: 2 / span 1; background-color: white; }
 footer{grid-row:4/5; grid-column: 1/ span 3;}
 
+/* specific overrides for responsive design */
+
+@media only screen and (max-width: 800px) {
+	body{
+	   grid-template-columns: 40px 1fr 40px;	
+	}
+}
 
 
 
