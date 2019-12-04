@@ -389,7 +389,7 @@ input:focus, textarea:focus {
 		width:80px;
 	}
 	#sizechart{
-		width: 50%;
+		width: 30%;
 		height:auto;
 	}
 	#sizechart:hover{ height: inherit; }	
