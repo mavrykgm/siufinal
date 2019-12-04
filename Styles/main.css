@@ -14,6 +14,7 @@ h1, h2, h3{
     padding: 5px 0.543%;
 	color: #13708f;
 	font-variant: small-caps;
+	text-shadow: .25px .25px .5px black;
 }
 h1{
     font-size: 1.85em;
@@ -33,6 +34,7 @@ main{
 	margin-left:auto;
 	margin-right:auto;
 }
+
 .left{
 	float:left;
 	margin-left:.4em;
@@ -51,15 +53,17 @@ main{
 }
 
 video{
-	width: 320px; 
+	max-width: 320px; 
 	height: 100%;
 }
 
 header{	
 	color:white;
 	display:block;
+	padding: 0px;
 	margin-left:auto;
 	margin-right:auto;}
+
 #dmglogo {height:120px;}
 
 
@@ -67,7 +71,7 @@ header{
 /* table styles */
 table{
     table-layout: fixed;
-	width:90%;
+	width:95%;
     border-collapse: collapse;
     white-space:normal;
 	margin-left:1em;
@@ -96,13 +100,16 @@ caption p{
 nav{
 	color:white;
 	display:block;
+	padding: 0px;
 	margin-left:auto;
 	margin-right:auto;}
 nav ul{
 	list-style-type:none;
 	overflow:hidden;
+	padding: 0px;
 }
-nav li{ float:left;}
+nav li{ float:left;
+	padding: 0px;}
 nav li a {
   display: block;
   color: white;
@@ -113,7 +120,7 @@ nav li a {
 nav li a:hover {opacity: 0.7;}
 
 /*body styles */
-body{color:black; width:95%; }
+body{color:black; }
 
 /* footer styles */
 footer{color:white;}
@@ -141,9 +148,6 @@ footer li{
 .fa:visited{color:white;}
 .fa:hover{opacity: 0.7;}
 /* Set brand-specific colors */
-
-/* Email */
-.fa-envelope {  background: #0072c6;  color: white;}
 /* Facebook */
 .fa-facebook {  background: #3B5998; color: white;}
 /* Instagram */
