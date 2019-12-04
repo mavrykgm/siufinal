@@ -165,7 +165,6 @@ footer li{
 	margin-left:auto;
 	margin-right:auto;
 }
-
 /* news */
 .article_wrap{
   	display:flex;
@@ -304,6 +303,20 @@ footer li{
 	width:90%;
 	margin-left:auto;
 	margin-right: auto;
+}
+.response_block_wrapper{
+	display:inline-block;
+	line-height: 1.5;
+	margin: 1.5em 2.5em;
+}
+.response_block{
+	float:left;
+	width:90%;
+}
+#response_img{
+	width:30%;
+	float: right;
+	border-radius: 25px;
 }
 .img_gm{
 	max-width:100px;
