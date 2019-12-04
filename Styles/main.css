@@ -362,6 +362,13 @@ input:focus, textarea:focus {
 	height:100px;
 	width: auto;
 }
+#sizechart{
+	height:100px;
+	width: auto;
+}#sizechart:hover{
+	height:100%;
+	width: auto;
+}
 /* specific overrides for responsive design */
 
 @media only screen and (max-width: 800px) {
