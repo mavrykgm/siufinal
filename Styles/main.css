@@ -25,7 +25,7 @@ h2{
 h3{
     font-size: 1.125em;
 }
-p{margin-left:1em;}
+p{margin: 1em 1em 0px;}
 li{
     padding-left: 10px 1.1%;
 }
@@ -74,10 +74,7 @@ table{
 	width:95%;
     border-collapse: collapse;
     white-space:normal;
-	margin-left:1em;
-	margin-top:2em;
-	margin-bottom:2em;
-	overflow: auto;
+	margin: 2em 1em;
 }
 th, td{
     border: 1px solid #13708F;
@@ -91,8 +88,9 @@ thead, tfoot{
     background-color: #53bfed;
     font-weight: bold;
 }
-caption p{
-	font-size:1.1em;
+caption{
+	padding: 0 0 1em;
+		font-size:1.1em;
 	text-align:left;
 }
 
@@ -299,11 +297,13 @@ footer li{
 .text_block_wrapper{
 	display:inline-block;
 	line-height: 1.5;
+	margin: 0px 2.5em;
 }
 .text_block{
 	float:left;
-	width:80%;
-	margin:.5em;
+	width:90%;
+	margin-left:auto;
+	margin-right: auto;
 }
 .img_gm{
 	max-width:100px;
@@ -313,8 +313,9 @@ footer li{
 	align-content: center;
 }
 .gm_application{
+	display: inline-block;
+	width: 85%;
 	margin: 0 3em 2em;
-	
 }
 
 /* contacts */
@@ -348,13 +349,25 @@ input:focus, textarea:focus {
 	width: auto;
 }
 /* specific overrides for responsive design */
+
+@media only screen and (max-width: 800px) {
+	.lib_img{
+		float:none;
+	}
+	.lib_text{
+		margin-bottom:1.5em;
+	}
+}
 @media only screen and (max-width: 600px) {
+	table{
+		width: 90%;
+	}
 	.event_img_sm{
 		float:none;
-		width: 100px;
+		width: 80px;
 		height: auto;
 	}
 	.tbl_event{
 		width:80px;
-	}
+	}	
 }
