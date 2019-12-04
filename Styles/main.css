@@ -225,6 +225,7 @@ footer li{
   	background-color:#53bfed;
 	border-radius: 50%;
 	color: white;
+	text-shadow: .25px .25px .5px black;
 }
 
 .dateblock_content{
