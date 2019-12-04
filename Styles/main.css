@@ -363,8 +363,7 @@ input:focus, textarea:focus {
 	width: 100px;
 }
 #sizechart:hover{
-	height:100%;
-	width: auto;
+	width: 100%;
 }
 /* specific overrides for responsive design */
 
