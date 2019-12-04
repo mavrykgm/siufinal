@@ -359,12 +359,8 @@ input:focus, textarea:focus {
 }
 
 #sizechart{
-	height:100px;
-	width: auto;
-}
-#sizechart{
-	height:100px;
-	width: auto;
+	height:auto;
+	width: 100px;
 }
 #sizechart:hover{
 	height:100%;
@@ -393,8 +389,8 @@ input:focus, textarea:focus {
 		width:80px;
 	}
 	#sizechart{
-		height:100%;
-		width: auto;
+		width: 50%;
+		height:auto;
 	}
 	#sizechart:hover{ height: inherit; }	
 }
