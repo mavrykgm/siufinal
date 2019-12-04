@@ -30,7 +30,7 @@ li{
     padding-left: 10px 1.1%;
 }
 main{
-	width:95%;
+	width:100%;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -322,22 +322,6 @@ footer li{
   background-color: white;
   text-align: center;
   margin-top: 100px;
-
-}
-.mailwrap{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  position:absolute;
-  left: 50%;
-  height:100px;
-  width:100px;
-  border: 1px solid white;
-  background-color: white;
-  border-radius: 50%;
-  top: 200px;
-transform: translateX(-50%);
-
 }
 form {
   padding-bottom: 20px;
@@ -363,4 +347,14 @@ input:focus, textarea:focus {
 	height:100px;
 	width: auto;
 }
-
+/* specific overrides for responsive design */
+@media only screen and (max-width: 600px) {
+	.event_img_sm{
+		float:none;
+		width: 100px;
+		height: auto;
+	}
+	.tbl_event{
+		width:80px;
+	}
+}
