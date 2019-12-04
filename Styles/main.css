@@ -359,8 +359,8 @@ input:focus, textarea:focus {
 }
 
 #sizechart{
-	height:auto;
 	width: 100px;
+	height:auto;
 }
 #sizechart:hover{
 	width: 100%;
@@ -387,9 +387,6 @@ input:focus, textarea:focus {
 	.tbl_event{
 		width:80px;
 	}
-	#sizechart:hover{ width: inherit; }	
-	#sizechart{
-		width: 30%;
-		height:auto;
-	}
+	#sizechart:hover{ width: inherit; }
+	#sizechart{width: 300px;}
 }
