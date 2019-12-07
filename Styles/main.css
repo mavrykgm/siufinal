@@ -360,7 +360,7 @@ input:focus, textarea:focus {
 
 #sizechart{
 	width: 300px;
-	height:auto;
+	height:100%;
 }
 
 /* specific overrides for responsive design */
